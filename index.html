@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Paratiisin Lumo</title>
+</head>
+
+<body>
+
+    <!-- ========== HEADER ========== -->
+    <header class="header">
+        <div class="container header-content">
+
+            <nav class="nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">Etusivu</a></li>
+                    <li><a href="#about" class="nav-link">Hinnasto</a></li>
+                    <li><a href="#services" class="nav-link">Palvelut</a></li>
+                    <li><a href="#contact" class="nav-link">Yhteystiedot</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn btn-primary header-cta">Ota yhteyttä</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Avaa valikko">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="hero-background">
+            <img src="bg.jpeg" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <h2 class="hero-headline">
+                    Paratiisin lumo
+                </h2>
+                <p class="hero-description">
+                    Laadukkaita palveluita juuri sinulle!
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Ota yhteyttä</a>
+                    <a href="#services" class="btn btn-outline">Palvelumme →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="about" id="about">
+        <div class="container about-inner">
+            <div class="about-image-col">
+                <div class="about-image-frame">
+                <div class="slider-wrapper">
+                    <button class="slider-arrow prev" aria-label="Previous image">&lt;</button>
+                    <div class="slider">
+                        <div class="slides">
+                            <div class="slide active">
+                                <img src="hinnasto.jpg" class="about-img">
+                            </div>
+                            <div class="slide">
+                                <img src="hinnasto1.jpg" class="about-img">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slider-arrow next" aria-label="Next image">&gt;</button>
+                </div>
+            </div>
+            </div>
+            <div class="about-text-col">
+                <span class="section-label">Hinnasto</span>
+                <h3 class="section-title">
+                    Hinnasto
+                </h3>
+                <p>
+                    Mikäli hinnoista tai palveluista jäi jotain epäselväksi, älä epäröi ottaa yhteyttä.
+                    Autan mielelläni ja vastaan kaikkiin kysymyksiin mahdollisimman nopeasti.
+
+                </p>
+                <a href="#contact" class="btn btn-primary header-cta">Ota yhteyttä</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="services-header">
+                <span class="section-label">Palvelumme</span>
+                <!-- MUUTA: Päivitä osion otsikko -->
+                <h3 class="section-title">
+                    Palvelumme
+                </h3>
+            </div>
+            <div class="services-grid">
+                <!-- MUUTA: Päivitä palvelukortit (lisää/poista/muokkaa) -->
+                <div class="service-card">
+                    <h4 class="service-title">Kasvohoidot</h4>
+                    <p class="service-desc">Tarjoamme useita erilaisia kasvohoitoja eri ihotyypeille ja ihon tarpeisiin. 
+                        Valikoimastamme löytyy vaihtoehtoja niin kuivalle, rasvoittuvalle kuin herkällekin iholle.</p>
+                    <br>
+                    <p class="service-desc">Hinnat alkaen 40€</p>
+                    </p>
+                    <a href="#contact" class="service-link">Ota yhteyttä →</a>
+                </div>
+                <div class="service-card">
+                    <h4 class="service-title">Jalkahoidot</h4>
+                    <p class="service-desc">Ammattitaitoiset jalkahoidot. Takaamme rauhoittavan kokemus sinulle ja jaloillesi.</p>
+                    <br>
+                    <p class="service-desc">Hinnat alkaen 45€</p>
+                    <a href="#contact" class="service-link">Ota yhteyttä →</a>
+                </div>
+                <div class="service-card">
+                    <h4 class="service-title">Käsihoidot</h4>
+                    <p class="service-desc">Hellävaraiset käsihoidot, joissa huolehdimme käsien hyvinvoinnista.</p>
+                    <br>
+                    <p class="service-desc">Hinnat alkaen 35€</p>
+                    <a href="#contact" class="service-link">Ota yhteyttä →</a>
+                </div>
+                <div class="service-card">
+                    <h4 class="service-title">Ripset & kulmat</h4>
+                    <p class="service-desc">Ripsien ja kulmien ammattimainen muotoilu ja/tai värjäys.</p>
+                    <br>
+                    <p class="service-desc">Hinnat alkaen 25€</p>
+                    <a href="#contact" class="service-link">Ota yhteyttä →</a>
+                </div>
+                <div class="service-card">
+                    <h4 class="service-title">Sokerointi & vahaus</h4>
+                    <p class="service-desc">Sileä iho sokerointi- ja vahamenetelmillä. Tehokas karvanpoisto, joka jättää ihon pehmeäksi ja karvattomaksi.</p>
+                    <br>
+                    <p class="service-desc">Hinnat alkaen 10€</p>
+                    <a href="#contact" class="service-link">Ota yhteyttä →</a>
+                </div>
+                <div class="service-card">
+                    <h4 class="service-title">Vartalohoidot</h4>
+                    <p class="service-desc">Rentouttavat vartalohoidot.</p>
+                    <br>
+                    <p class="service-desc">Hinnat alkaen 60€</p>
+                    <a href="#contact" class="service-link">Ota yhteyttä →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-header">
+                <span class="section-label">Yhteystiedot</span>
+                <!-- MUUTA: Päivitä osion otsikko -->
+                <h3 class="section-title">
+                    Ota Yhteyttä
+                </h3>
+                <p class="section-description">Huomioithan, että varauksen peruutus tai siirto tulee tehdä viimeistään
+                    24 tuntia ennen varattua aikaa.
+                    Myöhässä tehdyistä peruutuksista tai peruuttamattomista ajoista veloitetaan täysi hinta.</p>
+            </div>
+            <div class="contact-grid">
+                <!-- MUUTA: Päivitä yhteystiedot -->
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+                    </div>
+                    <h4>Osoite</h4>
+                    <p><a href="https://www.google.com/maps?q=Lenkkitie+14,+Jyväskylä" target="_blank">Lenkkitie 14,
+                            Jyväskylä</a></p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path
+                                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+                        </svg>
+                    </div>
+                    <h4>Puhelin</h4>
+                    <p><a href="tel:+358 50 5421700">+358 50 5421700</a></p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                    </div>
+                    <h4>Sähköposti</h4>
+                    <p><a href="mailto:Paratiisinlumo@gmail.com">Paratiisinlumo@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <h3 class="footer-logo">Paratiisin Lumo</h3>
+                <p>Laadukkaita palveluita juuri sinulle!</p>
+            </div>
+            <div class="footer-links">
+                <h4>Linkit</h4>
+                <ul>
+                    <li><a href="https://www.instagram.com/paratiisinlumo/">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=61570776172947&locale=fi_FI">Facebook</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Yhteystiedot</h4>
+                <p><a href="tel:+358 50 5421700">+358 50 5421700</a></p>
+                <p><a href="mailto:Paratiisinlumo@gmail.com">Paratiisinlumo@gmail.com</a></p>
+                <p><a href="https://www.google.com/maps?q=Lenkkitie+14,+Jyväskylä" target="_blank">Lenkkitie 14,
+                        Jyväskylä</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
