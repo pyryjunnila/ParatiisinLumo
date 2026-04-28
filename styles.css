@@ -1291,6 +1291,7 @@ ul {
 
     .hero-buttons {
         flex-direction: column;
+        max-width: 240px;
     }
 
     .hero-buttons .btn {
