@@ -402,6 +402,7 @@ ul {
     letter-spacing: -0.01em;
     line-height: 1.15;
     margin-bottom: 20px;
+    margin-left: 0.8rem;
 }
 
 .hero-headline--sub {
@@ -411,6 +412,16 @@ ul {
 .hero-headline em {
     font-style: italic;
     color: var(--color-secondary);
+}
+
+.hero-subtitle {
+    font-family: var(--font-heading);
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+    font-weight: 700;
+    color: var(--color-white);
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+    margin-bottom: 20px;
 }
 
 .hero-description {
