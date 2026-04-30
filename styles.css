@@ -72,9 +72,6 @@ ul {
     list-style: none;
 }
 
-/* ==============================
-   LAYOUT
-   ============================== */
 .container {
     width: 100%;
     max-width: 1200px;
@@ -82,9 +79,6 @@ ul {
     padding: 0 24px;
 }
 
-/* ==============================
-   SECTION UTILITIES
-   ============================== */
 .section-label {
     display: inline-block;
     font-size: 0.75rem;
@@ -147,9 +141,6 @@ ul {
     margin-top: 4px;
 }
 
-/* ==============================
-   TOP BAR
-   ============================== */
 .topbar {
     background: var(--color-white);
     color: rgba(244, 244, 249, 0.8);
@@ -188,9 +179,6 @@ ul {
     color: var(--color-primary);
 }
 
-/* ==============================
-   HEADER
-   ============================== */
 .header {
     position: sticky;
     top: 0;
@@ -199,7 +187,6 @@ ul {
     box-shadow: var(--shadow-sm);
     border-bottom: 1px solid var(--color-border);
 }
-
 
 .header-content {
     display: flex;
@@ -263,7 +250,6 @@ ul {
     font-size: 0.8rem;
 }
 
-/* Menu Toggle */
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -296,9 +282,6 @@ ul {
     transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* ==============================
-   BUTTONS
-   ============================== */
 .btn {
     display: inline-block;
     font-family: var(--font-body);
@@ -339,9 +322,6 @@ ul {
     transform: translateY(-2px);
 }
 
-/* ==============================
-   HERO
-   ============================== */
 .hero {
     position: relative;
     min-height: 90vh;
@@ -445,7 +425,6 @@ ul {
     flex-wrap: wrap;
 }
 
-/* Hero Tabs */
 .hero-tabs {
     position: relative;
     z-index: 1;
@@ -489,9 +468,6 @@ ul {
     opacity: 0.6;
 }
 
-/* ==============================
-   ABOUT
-   ============================== */
 .about {
     padding: 100px 0;
     background: var(--color-white);
@@ -629,9 +605,6 @@ ul {
     letter-spacing: 0.06em;
 }
 
-/* ==============================
-   SERVICES
-   ============================== */
 .services {
     padding: 100px 0;
     background: var(--color-bg);
@@ -667,8 +640,6 @@ ul {
     border-color: transparent;
 }
 
-
-
 .service-title {
     font-family: var(--font-heading);
     font-size: 1.15rem;
@@ -698,9 +669,6 @@ ul {
     letter-spacing: 0.06em;
 }
 
-/* ==============================
-   WORK PROCESS
-   ============================== */
 .process {
     padding: 100px 0;
     background: var(--color-white);
@@ -784,9 +752,6 @@ ul {
     transform: rotate(45deg);
 }
 
-/* ==============================
-   TRUST
-   ============================== */
 .trust {
     padding: 100px 0;
     background: var(--color-bg);
@@ -852,9 +817,6 @@ ul {
     line-height: 1.7;
 }
 
-/* ==============================
-   PORTFOLIO
-   ============================== */
 .portfolio {
     padding: 100px 0;
     background: var(--color-white);
@@ -921,9 +883,6 @@ ul {
     font-weight: 600;
 }
 
-/* ==============================
-   TESTIMONIALS
-   ============================== */
 .testimonials {
     padding: 100px 0;
     background: var(--color-primary);
@@ -980,9 +939,6 @@ ul {
     margin-top: 2px;
 }
 
-/* ==============================
-   CONTACT
-   ============================== */
 .contact {
     padding: 100px 0;
     background: var(--color-white);
@@ -1064,9 +1020,6 @@ ul {
     border-bottom-color: var(--color-primary);
 }
 
-/* ==============================
-   FOOTER
-   ============================== */
 .footer {
     background: var(--color-bg  );
     color: rgba(244, 244, 249, 0.7);
@@ -1143,9 +1096,6 @@ ul {
     color: rgba(244, 244, 249, 0.4);
 }
 
-/* ==============================
-   RESPONSIVE — TABLET (≤ 1024px)
-   ============================== */
 @media (max-width: 1024px) {
     .services-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -1175,9 +1125,6 @@ ul {
     }
 }
 
-/* ==============================
-   RESPONSIVE — TABLET (≤ 768px)
-   ============================== */
 @media (max-width: 768px) {
     .topbar-right {
         display: none;
@@ -1285,9 +1232,6 @@ ul {
     }
 }
 
-/* ==============================
-   RESPONSIVE — SMALL MOBILE (≤ 480px)
-   ============================== */
 @media (max-width: 480px) {
     .container {
         padding: 0 16px;
